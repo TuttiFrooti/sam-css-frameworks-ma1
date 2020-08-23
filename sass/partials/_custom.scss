@@ -1,14 +1,21 @@
-$black: #000;
-$brown: #463F3A;
-$pink:  #C32C72;
-$gray:  #E5E5E5;
-$white: #F4F3EE;
+$colours: (
+  "black-p":    #262626,
+  "brown-p":    #463F3A,
+  "primary":    #C32C72,
+  "gray-100":   #E5E5E5,
+  "gray-200":   #8D8D8D,
+  "white-p":    #F4F3EE,
+);
 
-$component-active-color:        $pink;
-$nav-tabs-link-active-color:    $pink;
-$nav-pills-link-active-color:   $pink;
-$navbar-dark-active-color:      $pink;
-$navbar-light-active-color:     $pink;
-$navbar-light-brand-color:      $black;
-$bg-color:                      $gray;
-$bg-white:                      $white;
+$bg-color:                      map-get($colours, gray-100);
+$bg-white:                      map-get($colours, white-p);
+$primary:                       map-get($colours, primary);
+$secondary:                     map-get($colours, brown-p);
+$text-fade:                     map-get($colours, gray-200);
+
+$component-active-color:        $primary;
+$nav-tabs-link-active-color:    $primary;
+$nav-pills-link-active-color:   $primary;
+$navbar-dark-active-color:      $primary;
+$navbar-light-active-color:     $primary;
+$navbar-light-brand-color:      map-get($colours, black-p);

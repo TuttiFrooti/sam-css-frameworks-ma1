@@ -9,8 +9,12 @@
   background-color: $bg-white;
 }
 
-.elm__color--brown {
-  color: $brown;
+.elm__color--secondary {
+  color: $secondary;
+}
+
+.elm__color--fade {
+  color: $text-fade;
 }
 
 .elm_size--16 {
@@ -28,13 +32,14 @@
 .row__col {
   width: 272px;
   height: 272px;
+  border: 2px solid $bg-white;
 }
 
 .row__col--active-border {
-  border: 2px solid $pink;
+  border: 2px solid $primary;
 }
 
 .row__col--active-bg {
-  background-color: $pink;
-  background: $pink;
+  background-color: $primary;
+  background: $primary;
 }
