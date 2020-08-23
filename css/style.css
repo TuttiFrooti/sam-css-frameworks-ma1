@@ -10833,7 +10833,8 @@ a.text-dark:hover, a.text-dark:focus {
   border: 2px solid #F4F3EE;
 }
 
-.row__col--active-border {
+.row__col--active {
+  background: #fff;
   border: 2px solid #C32C72;
 }
 

@@ -35,7 +35,8 @@
   border: 2px solid $bg-white;
 }
 
-.row__col--active-border {
+.row__col--active {
+  background: $white-bg;
   border: 2px solid $primary;
 }
 
