@@ -1,12 +1,24 @@
 @import "partials/_custom.scss";
 @import "../bootstrap-scss/bootstrap.scss";
 
-.elm__background--gray {
+.elm__bg--gray {
   background-color: $bg-color;
+}
+
+.elm__bg--white {
+  background-color: $bg-white;
 }
 
 .elm__color--brown {
   color: $brown;
+}
+
+.elm_size--16 {
+  font-size: 1.6rem;
+}
+
+.elm_weight--bold {
+  font-weight: bold;
 }
 
 .elm__rounded--15 {
